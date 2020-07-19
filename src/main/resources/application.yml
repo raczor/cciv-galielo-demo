@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: demo
+  flyway:
+    schemas: demo
+
+  jpa:
+    properties:
+      hibernate:
+        default_schema: demo
+
+  datasource:
+    url: jdbc:postgresql://ec2-34-233-226-84.compute-1.amazonaws.com:5432/da8arel3eh04vb
+    driverClassName: org.postgresql.Driver
+    username: lalktdiavchtlu
+    password: db4b28ab008a3ca35fa3c444a61247994ca04e3fa20ab90a15772df141f778d3
